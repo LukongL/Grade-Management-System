@@ -126,16 +126,27 @@ The Main class provides the command-line interface for interacting with the syst
  
 •	Methods:
 	•	public static void main(String[] args): The main method to start the program.
+ 
 	•	private static void displayMenu(): Displays the main menu.
+ 
 	•	private static int getUserChoice(): Gets the user's menu choice.
+ 
 	•	private static void addNewCourse(): Handles the addition of a new course.
+ 
 	•	private static void enrollStudent(): Handles student enrollment in a course.
+
 	•	private static void assignGrade(): Handles grade assignment to a student.
+ 
 	•	private static void calculateAverageCourseGrade(): Handles the calculation of average course grade for a student.
+ 
 	•	private static void calculateOverallGrade(): Handles the calculation of overall grade for a student.
+ 
 	•	private static void updateStudentInfo(): Handles updating student information.
+ 
 	•	private static void updateCourse(): Handles updating a course.
+ 
 	•	private static void removeCourse(): Handles removing a course.
+ 
 	•	private static Student findStudentById(String studentId): Finds a student by their ID.
 
 Utilization of Static Methods and Variables
