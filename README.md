@@ -49,9 +49,9 @@ Interacting with the System
 		
 		Removing a Course: Choose option 8 and select the course to remove.
 
-Contributors
+Author
 
-	Liliane Lukong
+	Liliane Lukong - liliane.haniel@gmail.com
 
 License
 
