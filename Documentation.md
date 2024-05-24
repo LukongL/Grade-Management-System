@@ -155,30 +155,38 @@ java Main
 	3.	Follow the on-screen instructions to interact with the system. Use the menu to add courses, enroll students, assign grades, and perform other administrative tasks.
 
 Interacting with the Administrator Interface
+
 1.	Add a New Course:
 	•	Choose option 1 from the main menu.
 	•	Enter the course code, name, and maximum capacity when prompted.
-2.	Enroll a Student in a Course:
+
+3.	Enroll a Student in a Course:
 	•	Choose option 2 from the main menu.
 	•	Enter the student's name and ID.
 	•	Select a course from the list of available courses.
-3.	Assign Grade to a Student:
+
+5.	Assign Grade to a Student:
 	•	Choose option 3 from the main menu.
 	•	Enter the student's ID and select the course.
 	•	Enter the grade to be assigned.
-4.	Calculate Average Course Grade for a Student:
+
+7.	Calculate Average Course Grade for a Student:
 	•	Choose option 4 from the main menu.
 	•	Enter the student's ID and select the course.
-5.	Calculate Overall Grade for Student Across All Courses:
+
+9.	Calculate Overall Grade for Student Across All Courses:
 	•	Choose option 5 from the main menu.
 	•	Enter the student's ID.
-6.	Update Student Information:
+
+11.	Update Student Information:
 	•	Choose option 6 from the main menu.
 	•	Enter the student's current ID and new information.
-7.	Update a Course:
+
+13.	Update a Course:
 	•	Choose option 7 from the main menu.
 	•	Select the course to update and enter the new details.
-8.	Remove a Course:
+
+15.	Remove a Course:
 	•	Choose option 8 from the main menu.
 	•	Select the course to remove.
 
