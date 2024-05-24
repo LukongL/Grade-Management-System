@@ -21,6 +21,7 @@ Student Class
 The Student class represents a student in the system.
 
 •	Fields:
+
 •	name (private String): The student's name.
 •	id (private String): The student's ID.
 •	enrolledCourses (private List<Course>): A list of courses the student is enrolled in.
