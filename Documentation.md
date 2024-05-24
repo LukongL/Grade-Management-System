@@ -1,17 +1,25 @@
 Course Enrollment and Grade Management System Documentation
 
 Project Overview
+
 The Course Enrollment and Grade Management System is designed to facilitate the management of student enrollments, assignment of grades, and calculation of average and overall grades for students in a university setting. The system uses object-oriented design principles, such as encapsulation and modularity, and provides a user-friendly command-line interface for administrators to interact with the system.
 
 Key Features
+
 •	Encapsulation: Use of private fields and public methods to protect and manage the internal state of objects.
+
 •	Modularity: Separation of functionality into different classes for better organization and reusability.
+
 •	Static Methods and Variables: Utilization of static methods and variables to manage shared data across the system.
+
 •	Interactive Command-Line Interface: An intuitive command-line interface that guides administrators through various operations.
 
 Class Descriptions
+
 Student Class
+
 The Student class represents a student in the system.
+
 •	Fields:
 •	name (private String): The student's name.
 •	id (private String): The student's ID.
