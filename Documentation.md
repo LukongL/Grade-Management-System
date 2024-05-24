@@ -121,10 +121,13 @@ Main Class
 The Main class provides the command-line interface for interacting with the system.
 
 •	Fields:
+
 	•	scanner (private static Scanner): Scanner object for reading user input.
+ 
 	•	students (private static List<Student>): A list to store all students.
  
 •	Methods:
+
 	•	public static void main(String[] args): The main method to start the program.
  
 	•	private static void displayMenu(): Displays the main menu.
@@ -150,7 +153,9 @@ The Main class provides the command-line interface for interacting with the syst
 	•	private static Student findStudentById(String studentId): Finds a student by their ID.
 
 Utilization of Static Methods and Variables
+
 	•	Static Methods: Static methods in the CourseManagement class, such as addCourse, getCourse, and enrollStudent, manage shared data and actions that are not specific to any single instance of a class.
+ 
 	•	Static Variables: The courses list in the CourseManagement class is static, allowing it to maintain a centralized list of all courses across the entire system.
 
 Running the Program
@@ -168,37 +173,55 @@ java Main
 Interacting with the Administrator Interface
 
 1.	Add a New Course:
+   
 	•	Choose option 1 from the main menu.
+
 	•	Enter the course code, name, and maximum capacity when prompted.
 
 3.	Enroll a Student in a Course:
+   
 	•	Choose option 2 from the main menu.
+
 	•	Enter the student's name and ID.
+
 	•	Select a course from the list of available courses.
 
 5.	Assign Grade to a Student:
+   
 	•	Choose option 3 from the main menu.
+
 	•	Enter the student's ID and select the course.
+
 	•	Enter the grade to be assigned.
 
 7.	Calculate Average Course Grade for a Student:
+   
 	•	Choose option 4 from the main menu.
+
 	•	Enter the student's ID and select the course.
 
 9.	Calculate Overall Grade for Student Across All Courses:
+    
 	•	Choose option 5 from the main menu.
+
 	•	Enter the student's ID.
 
 11.	Update Student Information:
+    
 	•	Choose option 6 from the main menu.
+
 	•	Enter the student's current ID and new information.
 
 13.	Update a Course:
+    
 	•	Choose option 7 from the main menu.
+
 	•	Select the course to update and enter the new details.
 
 15.	Remove a Course:
+    
 	•	Choose option 8 from the main menu.
+
 	•	Select the course to remove.
 
 By following these instructions, administrators can effectively manage courses and student enrollments, ensuring a smooth and efficient academic experience.
